@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/css/output.css">
+    <script src="/js/scripts.js" defer></script>
+</head>
+<body id="home" class="bg-black h-screen">
+
+    <!--Header-->
+    <nav class="z-10 bg-slate-950 h-16 w-100% flex justify-around sticky top-0 items-center">
+        <div class="transition-colors duration-300 ease-in-out text-white font-bold text-2xl cursor-pointer hover:text-violet-500">Madhur Chouhan</div>
+
+        <!--Navigation-->
+        <div class="flex gap">
+            <a class="transition-colors duration-300 ease-in-out text-white pr-6 hover:underline hover:font-bold hover:text-violet-500" href="#home">Home</a>
+            <a class="transition-colors duration-300 ease-in-out text-white pr-6 hover:underline hover:font-bold hover:text-violet-500" href="#about">About</a>
+            <a class="transition-colors duration-300 ease-in-out text-white pr-6 hover:underline hover:font-bold hover:text-violet-500" href="#portfolio">Portfolio</a>
+            <button class="transition-colors duration-300 ease-in-out hover:bg-violet-950 hover:border-violet-700 hover:text-white text-white bg-none border-cyan-50 border-2 rounded-2xl px-4 text-center">Let's Talk</button>
+        </div>
+    </nav>
+
+    <!--Hero Content-->
+    <div class="flex justify-evenly items-center mt-20">
+
+        <!--My discription-->
+        <div>
+            <p class="text-white font-bold text-5xl">Full Stack <br>Developer !</p>
+            <br>
+            <p class="text-white text-xl">Hii, I'm <b>Madhur Chouhan.</b> <br>A Passionate Full Stack Web Developer <br>Based in India.</p>
+        </div>
+
+        <!--My Photo-->
+        <img class="rounded-full w-1/3 border-white border-2" src="/img/my-image-1.JPG">
+    </div>
+
+    <!--Skills-->
+    <div class="mt-20">
+        <h1 class="text-white text-center text-xl font-semibold">Tech Stockes</h1>
+        <br>
+        <div class="flex justify-evenly h-10 mx-20">
+            <img src="/icon/html-logo.png">
+            <img src="/icon/css-icon.png">
+            <img src="/icon/tailwind-css.png">
+            <img src="/icon/java-icon.png">
+            <img src="/icon/figma-icon.png">
+            <img src="/icon/flutter-icon.png">
+        </div>
+        <!-- Horizontal Divider -->
+        <div class="border-t border-gray-300 mt-8"></div>
+    </div>
+
+    <!--About Me Section-->
+    <div id="about" class="mt-10 p-10">
+        <h2 class="text-white text-center text-3xl font-bold">About Me</h2>
+        <p class="text-white text-center mt-4">I have experience in HTML, CSS, JavaScript, Figma, and Flutter.<br> I love creating interactive and user-friendly websites and applications.</p>
+
+        <!--About Me Content-->
+        <div class="flex mt-10 justify-around">
+            <img class="rounded-full w-1/4 border-white border-2" src="/img/my-image-2.JPG">
+
+            <div class="content-center">
+                <h2 class="text-white text-xl text-center">Name : <b>Madhur Chouhan</b></h2>
+                <br>
+                <h2 class="text-white text-xl text-center">E-mail : <b>madhurchouhan7@gmail.com</b></h2>
+                <br>
+                <h2 class="text-white text-xl text-center">Phone : <b>7987511048</b></h2>
+            </div>
+        </div>
+
+        <!-- Horizontal Divider -->
+        <div class="border-t border-gray-300 mt-10"></div>
+    </div>
+
+    <!--Services Section Placeholder-->
+    <div id="portfolio" class="p-10">
+        <h2 class="text-white text-center text-3xl font-bold">Services</h2>
+
+        <!--Whole-->
+        <div>
+            <!--first row-->
+            <div class="flex justify-around">
+
+                <!--first Card: UI/UX developer-->
+                <div class="mt-10 h-20 w-2/5 bg-violet-950 rounded-md p-4 cursor-pointer flex justify-center items-center transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:bg-violet-700">
+                    <img class="h-5 m-3" src="/icon/figma-icon.png">
+                    <h1 class="text-white font-bold">UI/UX Developer</h1>
+                </div>
+
+                <!--second Card: Front-end developer-->
+                <div class="mt-10 h-20 w-2/5 bg-violet-950 rounded-md p-4 cursor-pointer flex justify-center items-center transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:bg-violet-700">
+                    <img class="h-5 m-3" src="/icon/html-logo.png">
+                    <img class="h-5 m-3" src="/icon/css-icon.png">
+                    <img class="h-5 m-3" src="/icon/tailwind-css.png">
+                    <h1 class="text-white font-bold">Front-end Developer</h1>
+                </div>
+            </div>
+
+            <!--Second row-->
+            <div class="flex justify-around">
+
+                <!--First Card: Flutter Developer-->
+                <div class="mt-10 h-20 w-2/5 bg-violet-950 rounded-md p-4 cursor-pointer flex justify-center items-center transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:bg-violet-700">
+                    <img class="h-5 m-3" src="/icon/flutter-icon.png">
+                    <h1 class="text-white font-bold">Flutter Developer</h1>
+                </div>
+
+
+                <!--second Card: java developer-->
+                <div class="mt-10 h-20 w-2/5 bg-violet-950 rounded-md p-4 cursor-pointer flex justify-center items-center transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:bg-violet-700">
+                    <img class="h-5 m-3" src="/icon/java-icon.png">
+                    <h1 class="text-white font-bold">Java Developer</h1>
+                </div>
+            </div>
+        </div>
+        <!-- Horizontal Divider -->
+        <div class="border-t border-gray-300 mt-10"></div>
+    </div>
+
+    <!--Contact Me Section-->
+    <div id="contact-me">
+        <h2 class="text-white text-center text-3xl font-bold">Contact Me</h2>
+
+        <!--display info : main div-->
+        <div class="flex justify-around">
+
+            <!--Address-->
+            <div class="flex flex-col items-center ">
+                <img class="h-8 mt-10 mb-2" src="/icon/location-icon.png">
+                <p class="text-white font-bold">Indore, India</p>
+            </div>
+
+            <!--Phone-->
+            <div class="flex flex-col items-center">
+                <img class="h-8 mt-10 mb-2" src="/icon/phone-icon.png">
+                <p class="text-white font-bold">7987511048</p>
+            </div>
+
+            <!--emial-->
+            <div class="flex flex-col items-center">
+                <img class="h-8 mt-10 mb-2" src="/icon/email-icon.png">
+                <p class="text-white font-bold">madhurchouhan7@gmail.com</p>
+            </div>
+
+            <!--website-->
+            <div class="flex flex-col items-center">
+                <img class="h-8 mt-10 mb-2" src="/icon/website-icon.png">
+                <p class="text-white font-bold">My Portfolio</p>
+            </div>
+        </div>
+    </div>
+
+    <!--send a msg to me section-->
+    <div class="flex mt-20 justify-around">
+        <img class="rounded-full w-1/4 border-violet-500 border-2" src="/img/my-image-3.jpeg">
+
+            <div class="content-center">
+                <input type="text" placeholder="Enter your Name" class="bg-gray-800 text-white placeholder-gray-500 border border-gray-600 rounded-lg py-2 px-4 w-full focus:outline-none focus:ring-2 focus:ring-violet-500 focus:border-transparent transition duration-300"> 
+                <br>
+                <input type="email" placeholder="Enter your mail" class="bg-gray-800 text-white placeholder-gray-500 border border-gray-600 rounded-lg py-2 px-4 w-full mt-5 focus:outline-none focus:ring-2 focus:ring-violet-500 focus:border-transparent transition duration-300"> 
+                
+                <input type="text" placeholder="Subject" class="bg-gray-800 text-white placeholder-gray-500 border border-gray-600 rounded-lg py-2 px-4 w-full mt-5 focus:outline-none focus:ring-2 focus:ring-violet-500 focus:border-transparent transition duration-300">
+
+                <button class="p-1 mt-10 transition-colors duration-300 ease-in-out hover:bg-violet-950 hover:border-violet-700 hover:text-white text-white bg-none border-cyan-50 border-2 rounded-2xl px-4 text-center">Contact Me</button>
+            </div>
+    </div>
+
+
+
+</body>
+</html>
